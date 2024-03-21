@@ -1,0 +1,57 @@
+proxies:
+- name: (Pendosa80) [nataf564
+  type: vmess
+  server: part08.cobeksawit.xyz
+  port: 443
+  uuid: 035546f7-d7d6-41f4-b308-1cd024af1983
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  tls: true
+  servername: meet.google.com
+  network: grpc
+  grpc-opts:
+      grpc-service-name: vmess-service
+  udp: true
+- name: (Pendosa80) [nataf56g4
+  type: vmess
+  server: 104.18.49.163
+  port: 443
+  uuid: 035546f7-d7d6-41f4-b308-1cd024af1983
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  tls: true
+  servername: part08.cobeksawit.xyz
+  network: grpc
+  grpc-opts:
+      grpc-service-name: vmess-service
+  udp: true
+- name: (Pendosa80) [nataf56k3
+  type: vmess
+  server: cvs-deo.shopeemobile.com
+  port: 443
+  uuid: 035546f7-d7d6-41f4-b308-1cd024af1983
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  tls: true
+  servername: part08.cobeksawit.xyz
+  network: grpc
+  grpc-opts:
+      grpc-service-name: vmess-service
+  udp: true
+- name: (Pendosa80) [nataf564t
+  type: vmess
+  server: part08.cobeksawit.xyz
+  port: 443
+  uuid: 035546f7-d7d6-41f4-b308-1cd024af1983
+  alterId: 0
+  cipher: auto
+  skip-cert-verify: true
+  tls: true
+  servername: teams.microsoft.com
+  network: grpc
+  grpc-opts:
+      grpc-service-name: vmess-service
+  udp: true    
